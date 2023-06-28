@@ -1,0 +1,24 @@
+.banner__botao {
+    align-items: center;
+    border: 1px solid var(--azul);
+    background-color: var(--azul);
+    box-sizing: border-box;
+    color: var(--branco);
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    width: 133px;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__botao {
+        margin-top:2rem ;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__botao {
+        margin-top:0 ;
+    }
+}

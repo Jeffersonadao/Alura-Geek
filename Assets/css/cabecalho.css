@@ -48,6 +48,7 @@
         padding-right: 2rem;
         padding-left: 2rem;
     }
+
     .cabecalho__busca {
         background-color: var(--cinza);
         border-radius: 15px;
@@ -79,19 +80,6 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .cabecalho {
-        justify-content: flex-start;
-    
-    }
-    
-    .cabecalho.esquerda {
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-
-}
-
 @media screen and (min-width: 1024px) {
     .cabecalho {
         justify-content: flex-start;
@@ -99,7 +87,7 @@
     }
     
     .cabecalho.esquerda {
-        padding-right: 1.5rem;
+        padding-right: 3rem;
         padding-left: 4rem;
     }
 
@@ -113,37 +101,9 @@
     }
     
     .cabecalho__busca {
-        margin-right: 18rem;
         border: none;
+        margin-right: 10rem;
+        width: 600px;
+        margin-left: 3rem;
     }
-}
-
-@media screen and (min-width: 1440px) {
-    .cabecalho {
-        justify-content: flex-start;
-        padding-left:5rem ;
-        max-width: 100%;
-    }
-    
-    .cabecalho.esquerda {
-        padding-right: 1.5rem;
-        padding-left: 4rem;
-        margin-right: 3rem;
-    }
-
-    .cabecalho__logo--controle {
-        height: 50px;
-        width: 50px;
-    }
-    .cabecalho__logo {
-        height: 50px;
-        width: 126px;
-    }
-    
-    .cabecalho__busca {
-        margin-right: 37rem;
-        border: none;
-        width: 400px;
-    }
-    
 }
