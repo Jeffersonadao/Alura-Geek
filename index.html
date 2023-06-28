@@ -9,84 +9,84 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="./Assets/img/logo-controle.svg"/>
     <link rel="stylesheet" href="./Assets/css/normalize.css"/>
-    <link rel="stylesheet" href="./Assets/css/reset.css"/>
+    <link rel="stylesheet" href="./Assets/css/base.css"/>
     <link rel="stylesheet" href="./Assets/css/cabecalho.css"/>
 </head>
 <body>
     <header>
         <div class="cabecalho">
             <div class="cabecalho esquerda">
-                <img class="cabecalho_logo-controle" src="Assets/img/logo-controle.svg">
-                <img class="cabecalho_logo" src="Assets/img/logo-texto.svg">
+                <img class="cabecalho__logo--controle" src="Assets/img/logo-controle.svg">
+                <img class="cabecalho__logo" src="Assets/img/logo-texto.svg">
             </div>
-            <a  href="#" class="cabecalho-login">Login</a>
-            <div class="cabecalho-busca">
-                <input class="cabecalho-pesquisa" type="search" placeholder="O que deseja Encontrar?"/>
+            <a  href="#" class="cabecalho__login">Login</a>
+            <div class="cabecalho__busca">
+                <input class="cabecalho__pesquisa" type="search" placeholder="O que deseja Encontrar?"/>
                 <img class="lupa" src="./Assets/img/lupa.svg"/>
             </div>
         </div>
     </header>
 
     <section class="banner">
-        <div class="banner-imagem" src="Assets/img/banner.jpg"> </div>
-        <h2 class="banner-titulo">Dezembro Promocional</h2>
-        <h3 class="banner-descricao">Produtos Selecionados com 33% de Desconto</h3>
-        <button class="banner-botao">Ver Consoles</button>
+        <div class="banner__imagem" src="./Assets/img/banner.jpg"></div>
+        <h2 class="banner__titulo">Dezembro Promocional</h2>
+        <h3 class="banner__descricao">Produtos Selecionados com 33% de Desconto</h3>
+        <button class="banner__botao">Ver Consoles</button>
     </section>
 
     <main class="principal">
-        <div class="principal-produtos">
-            <div class="produto-star">
-                <div class="produto-titulo">
+        <div class="principal___produtos">
+            <div class="produto__star">
+                <div class="produto__titulo">
                     <h2>Star Wars</h2>
-                    <a class="ver-tudo" href="#">Ver Tudo</a>
+                    <a class="ver__tudo" href="#">Ver Tudo</a>
                     <ul class="produto__lista">
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/star1.png"/><h3 class="produto-titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/star2.png"/><h3 class="produto-titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/star3.png"/><h3 class="produto-titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/star4.png"/><h3 class="produto-titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/star5.png"/><h3 class="produto-titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/star6.png"/><h3 class="produto-titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/star1.png"/><h3 class="produto__titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/star2.png"/><h3 class="produto__titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/star3.png"/><h3 class="produto__titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/star4.png"/><h3 class="produto__titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/star5.png"/><h3 class="produto__titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/star6.png"/><h3 class="produto__titulo">Produto XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
                     </ul>
                     
                 </div>
                 <div class="produtos"></div>
             </div>
 
-            <div class="produto-consoles">
-                <div class="produto-titulo">
+            <div class="produto__consoles">
+                <div class="produto__titulo">
                     <h2>Consoles</h2>
-                    <a class="ver-tudo" href="#">Ver Tudo</a>
+                    <a class="ver__tudo" href="#">Ver Tudo</a>
                     <ul class="produto__lista">
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/console1.png"/><h3 class="produto-titulo">Controle XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/console2.png"/><h3 class="produto-titulo">Controle e console XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/console3.png"/><h3 class="produto-titulo">console XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/console4.png"/><h3 class="produto-titulo">console XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/console5.png"/><h3 class="produto-titulo">Console XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/console6.png"/><h3 class="produto-titulo">Game Boy Color</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/console1.png"/><h3 class="produto__titulo">Controle XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/console2.png"/><h3 class="produto__titulo">Controle e console XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/console3.png"/><h3 class="produto__titulo">console XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/console4.png"/><h3 class="produto__titulo">console XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/console5.png"/><h3 class="produto__titulo">Console XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/console6.png"/><h3 class="produto__titulo">Game Boy Color</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
                     </ul>
                 </div>
                 <div class="produtos"></div>
             </div>
 
-            <div class="produto-diversos">
-                <div class="produto-titulo">
+            <div class="produto__diversos">
+                <div class="produto__titulo">
                     <h2>Diversos</h2>
-                    <a class="ver-tudo" href="#">Ver Tudo</a>
+                    <a class="ver__tudo" href="#">Ver Tudo</a>
                     <ul class="produto__lista">
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/diversos1.png"/><h3 class="produto-titulo">Camisa Atari</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/diversos2.png"/><h3 class="produto-titulo">Camisa SNES</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/diversos3.png"/><h3 class="produto-titulo">Controle e console</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/diversos4.png"/><h3 class="produto-titulo">Controle e console XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/diversos5.png"/><h3 class="produto-titulo">Controle e console XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
-                        <li class="produto-item"><img class="produto-imagem" src="Assets/img/diversos6.png"/><h3 class="produto-titulo">Controle e console XYZ</h3><p>R$ 60,00</p><a class="produto-link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/diversos1.png"/><h3 class="produto__titulo">Camisa Atari</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/diversos2.png"/><h3 class="produto__titulo">Camisa SNES</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/diversos3.png"/><h3 class="produto__titulo">Controle e console</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produt__imagem" src="Assets/img/diversos4.png"/><h3 class="produto__titulo">Controle e console XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/diversos5.png"/><h3 class="produto__titulo">Controle e console XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
+                        <li class="produto__item"><img class="produto__imagem" src="Assets/img/diversos6.png"/><h3 class="produto__titulo">Controle e console XYZ</h3><p>R$ 60,00</p><a class="produto__link" href="#">Ver Produto</a></li>
                     </ul>
                 </div>
                 <div class="produtos"></div>
             </div>
         </div>
 
-        <div class="fale-conosco">
+        <div class="fale__conosco">
             <div classe></div>
         </div>
 
