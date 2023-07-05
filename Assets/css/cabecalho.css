@@ -74,6 +74,11 @@
 
     }
 
+    .cabecalho__pesquisa:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+    }    
+
     .cabecalho__login {
         order:2;
         margin-right: 2rem;
@@ -105,5 +110,11 @@
         margin-right: 10rem;
         width: 600px;
         margin-left: 3rem;
+    }
+
+    .cabecalho__pesquisa:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+        width: 550px;
     }
 }
