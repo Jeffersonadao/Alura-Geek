@@ -1,0 +1,12 @@
+.produto__imagem {
+    display: flex;
+    align-self: stretch;
+    width: 9.75rem;
+    height: 10.875rem;
+}
+
+@media screen and (min-width: 768px) {
+    .produto__imagem {
+        width: 10.25rem; 
+    }
+}

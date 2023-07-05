@@ -1,0 +1,37 @@
+.produtos__titulo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 0 2rem 0 0.5rem;
+    align-items: center;
+}
+
+.produtos__titulo a {
+    font-size: 0.875rem;
+    color: var(--azul);
+    font-weight: 700;
+ 
+}
+
+.produtos__titulo a:after {
+    content:"➔" ;
+    color: var(--azul);
+    padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .produtos__titulo {
+        padding: 0 2rem 0 0.7rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .produtos__titulo {
+        width: 100%;
+    }
+
+    .ver__tudo {
+        margin-right: 10rem;
+    }
+}
+

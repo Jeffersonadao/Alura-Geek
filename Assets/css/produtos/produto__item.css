@@ -1,0 +1,17 @@
+.produto__titulo {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.produto__item p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.produto__link {
+    font-size: 0.875rem;
+    color: var(--azul);
+    font-weight: 700;
+}

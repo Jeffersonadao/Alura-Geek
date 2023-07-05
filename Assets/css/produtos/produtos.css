@@ -1,0 +1,42 @@
+.principal {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.principal___produtos {
+    width: 100vw;
+    padding-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .principal___produtos {
+        width: 100vw;
+        padding: 2rem;
+    }
+
+    .principal {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .principal {
+        width: 100%;
+    }
+    
+    .principal___produtos {
+        width: 100%;
+        padding: 0;
+        margin-left: 8rem;
+    }
+
+    .principal {
+        display: flex;
+        width: 100%;
+    }
+
+    .produto {
+        margin: 4rem 0 4rem 0;
+    }
+}
+
