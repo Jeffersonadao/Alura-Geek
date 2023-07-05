@@ -1,0 +1,40 @@
+.quem__somos--menu {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.quem__somos--link {
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .contato {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 1rem;
+       
+    }
+
+    .quem__somos--menu  {
+        text-align: start;
+    }   
+}
+
+@media (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: space-around;
+    }
+    .quem__somos {
+        display: flex;
+    }
+    .quem__somos--logo--logo {
+        padding-bottom: 10rem;
+        padding-right: 5rem;
+    }
+}
+

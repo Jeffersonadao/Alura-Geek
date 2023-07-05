@@ -1,0 +1,17 @@
+.quem__somos--logo--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quem-somos__logo--controle {
+    width: 3.12481rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+}
+
+.quem-somos__logo--texto {
+    width: 7.87519rem;
+    height: 1.15625rem;
+    flex-shrink: 0;
+}

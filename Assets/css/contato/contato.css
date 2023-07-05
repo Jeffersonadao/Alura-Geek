@@ -1,0 +1,6 @@
+.contato {
+    background: var(--azul-fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

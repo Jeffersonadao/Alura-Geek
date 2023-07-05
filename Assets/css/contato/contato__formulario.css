@@ -1,0 +1,100 @@
+.fale__conosco {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    margin-left: 2rem;
+    
+}
+
+.fale__conosco__titulo {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.fale__conosco--formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;  
+    
+}
+
+.fale__conosco--input {
+    border: transparent;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    outline: 0;  
+    width: 100%;
+}
+
+.div__input--nome label {
+    top: 1.2rem;
+    left: 0.5rem;
+    font-size: 1rem;
+}
+
+.div__input--nome input:focus,
+.div__input--nome input:valid,
+.div__input--mensagem input:focus,
+.div__input--mensagem input:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.fale__conosco--textarea {
+    height: 5.125rem;
+    border-radius: 4px;
+    border: transparent;
+    resize: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    text-align: start;
+    width: 100%;
+}
+
+.fale__conosco--botao {
+    align-items: center;
+    border: 1px solid var(--azul);
+    background-color: var(--azul);
+    box-sizing: border-box;
+    color: var(--branco);
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    width: 9.4375rem;
+    margin-top: 1rem;
+}
+
+
+@media (min-width: 768px) {
+    .fale__conosco {
+        padding-top: 1rem;
+    }
+    .div__input--nome input {
+        height:2.5rem ;
+    }
+    .div__input--mensagem input {
+        height: 4.125rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+    .contato {
+        width: 100%;
+    }
+
+    .fale__conosco {
+        width: 33.3%;
+        padding-right: 5rem;
+    }
+    .div__input--nome input {
+        width: 35rem;
+    }
+
+    .div__input--mensagem input {
+        width: 35rem;
+    }
+
+}
