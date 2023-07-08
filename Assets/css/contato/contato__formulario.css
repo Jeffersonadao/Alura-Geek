@@ -27,10 +27,9 @@
     width: 100%;
 }
 
-.div__input--nome label {
-    top: 1.2rem;
-    left: 0.5rem;
-    font-size: 1rem;
+.fale__conosco--input::placeholder {
+    padding-left: 1rem;
+    color: var(--preto-claro);
 }
 
 .div__input--nome input:focus,
@@ -49,6 +48,11 @@
     outline: 0;
     text-align: start;
     width: 100%;
+}
+
+.fale__conosco--textarea::placeholder {
+    padding-left: 1rem;
+    color: var(--preto-claro);
 }
 
 .fale__conosco--botao {
