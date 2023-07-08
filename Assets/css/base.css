@@ -1,10 +1,15 @@
+html {
+    width: 97%;
+}
+
 :root {
     --branco: #FFFFFF  ;
     --azul-fundo: #d2e5ff ;
     --azul: #2A7AE4 ;
     --preto-claro:#A2A2A2 ;
     --cinza: #f5f5f5; 
-    --branco2:#fdfdfd
+    --branco2:#fdfdfd;
+    --azul-hover:#D4E4FA
 }
 
 body {
@@ -23,6 +28,8 @@ ul, li {
 .principal {
     width: 100%;
 }
+
+
 
 
 
