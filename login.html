@@ -41,11 +41,11 @@
 
     <main>
         <div class="login">
-            <form class="formulario__login">
+            <form class="formulario__login" data-form>
                 <h3 class="formulario--login--titulo">Iniciar Sessão</h3>
                 <div class="formulario__dados">
-                    <input required class="formumlario__login--email" type="text" placeholder="Escreva seu email" id="email">
-                    <input required class="formulario__login--senha" type="text" placeholder="Escreva sua senha" id="senha">
+                    <input required class="formumlario__login--email" type="text" placeholder="Escreva seu email" id="email" data-email>
+                    <input required class="formulario__login--senha" type="password" placeholder="Escreva sua senha" id="senha" data-senha >
                 </div>
                 <button class="formulario__login--botao">Entrar</button>
 
@@ -98,6 +98,7 @@
             <p>2023</p>
         </div>
     </section>
+    <script type="module" src="./controller/login-controller.js"></script>
 </body>
 
 </html>

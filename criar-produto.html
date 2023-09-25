@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Criar Produto | Jefferson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Assets/img/logo-controle.svg" />
+    <link rel="stylesheet" href="./Assets/css/normalize.css" />
+    <link rel="stylesheet" href="./Assets/css/base.css" />
+    <link rel="stylesheet" href="./Assets/css/cabecalho.css" />
+    <link rel="stylesheet" href="./Assets/css/contato/contato.css" />
+    <link rel="stylesheet" href="./Assets/css/contato/contato.css" />
+    <link rel="stylesheet" href="./Assets/css/contato/contato__logo.css" />
+    <link rel="stylesheet" href="./Assets/css/contato/contato__quemsomos.css" />
+    <link rel="stylesheet" href="./Assets/css/contato/contato__formulario.css" />
+    <link rel="stylesheet" href="./Assets/css/footer.css" />
+    <link rel="stylesheet" href="./Assets/css/login/login.css" />
+    <link rel="stylesheet" href="./Assets/css/login/formulario__titulo.css" />
+    <link rel="stylesheet" href="./Assets/css/login/formulario__login.css" />
+</head>
+
+<body>
+    <!-- Area do cabeçalho -->
+    <header>
+        <div class="cabecalho">
+            <div class="cabecalho esquerda">
+                <a href="index.html"><img class="cabecalho__logo--controle" src="Assets/img/logo-controle.svg"></a>
+                <a href="index.html"><img class="cabecalho__logo" src="Assets/img/logo-texto.svg"></a>
+            </div>
+            <a href="login.html" class="cabecalho__login">Login</a>
+            <div class="cabecalho__busca">
+                <input class="cabecalho__pesquisa" type="search" placeholder="O que deseja Encontrar?" />
+                <img class="lupa" src="./Assets/img/lupa.svg" />
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="login">
+            <form class="formulario__login" data-criarProduto>
+                <h3 class="formulario--login--titulo">Adicionar novo produto</h3>
+                <div class="formulario__dados">
+                    <input 
+                        required 
+                        class="formumlario__login--email" 
+                        type="text" 
+                        placeholder="URL do produto" 
+                        id="url-produto"
+                        data-url
+                    >
+
+                    <input 
+                        required 
+                        class="formulario__login--senha" 
+                        type="text" 
+                        placeholder="Nome do produto" 
+                        id="nome-produto"
+                        data-nome
+                    >
+                    <input 
+                        required class="formulario__login--senha" 
+                        type="number" 
+                        placeholder="Preço do produto" 
+                        id="preço-produto"
+                        data-preco
+                    >
+                </div>
+                <button class="formulario__login--botao">Adicionar produto</button>
+
+            </form>
+        </div>
+
+    </main>
+
+    <!-- Area quem somos -->
+    <section class="contato">
+        <div class="quem__somos">
+            <div class="quem__somos--logo--logo">
+                <img class="quem-somos__logo--controle" src="Assets/img/logo-controle.svg">
+                <img class="quem-somos__logo--texto" src="Assets/img/logo-texto.svg">
+            </div>
+            <div class="quem__somos--nav">
+                <ul class="quem__somos--menu">
+                    <li class="quem__somos--link"><a href="#">Quem somos</a></li>
+                    <li class="quem__somos--link"><a href="#">Política de privacidade</a></li>
+                    <li class="quem__somos--link"><a href="#">Programa fidelidade</a></li>
+                    <li class="quem__somos--link"><a href="#">Nossas lojas</a></li>
+                    <li class="quem__somos--link"><a href="#">Quero ser franqueado</a></li>
+                    <li class="quem__somos--link"><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Area fale conosco -->
+        <div class="fale__conosco">
+            <div class="fale__conosco__titulo">
+                <h2>Fale Conosco</h2>
+            </div>
+            <form action="" class="fale__conosco--formulario">
+                <div class="div__input--nome">
+                    <input required class="fale__conosco--input" type="text" placeholder="Nome" id="nome">
+                </div>
+
+                <div class="div__input--mensagem">
+                    <input required class="fale__conosco--textarea" type="text" placeholder="Escreva sua mensagem"
+                        id="mensagem">
+                </div>
+                <button class="fale__conosco--botao">Enviar mensagem</button>
+            </form>
+        </div>
+    </section>
+    <!-- Area dos Rodapé -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Desenvolvido por Jeferson Ferreira</p>
+            <p>2023</p>
+        </div>
+    </section>
+    <script type="module" src="./controller/criar-produto-controller.js"></script>
+</body>
+
+</html>
